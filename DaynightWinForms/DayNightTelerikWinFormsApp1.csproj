@@ -1,0 +1,229 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
+
+
+    <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+
+    <ItemGroup>
+      <Reference Include="MediaFoundation">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\MediaFoundation.dll</HintPath>
+      </Reference>
+      <Reference Include="RadControlSpy">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\RadControlSpy.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.Documents.SpreadsheetStreaming">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.Documents.SpreadsheetStreaming.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.ChartView">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.ChartView.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.GridView">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.GridView.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.PdfViewer">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.PdfViewer.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.PivotGrid">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.PivotGrid.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.RadDiagram">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.RadDiagram.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.RadDock">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.RadDock.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.RadMap">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.RadMap.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.RadMarkupEditor">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.RadMarkupEditor.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.RadSpreadsheet">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.RadSpreadsheet.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.RadToastNotification">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.RadToastNotification.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.RadWebCam">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.RadWebCam.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.RichTextEditor">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.RichTextEditor.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Scheduler">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Scheduler.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.SpellChecker">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.SpellChecker.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.SyntaxEditor">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.SyntaxEditor.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.Aqua">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.Aqua.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.Breeze">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.Breeze.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.Crystal">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.Crystal.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.CrystalDark">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.CrystalDark.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.Desert">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.Desert.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.Fluent">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.Fluent.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.FluentDark">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.FluentDark.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.HighContrastBlack">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.HighContrastBlack.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.Material">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.Material.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.MaterialBlueGrey">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.MaterialBlueGrey.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.MaterialPink">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.MaterialPink.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.MaterialTeal">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.MaterialTeal.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.Office2007Black">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.Office2007Black.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.Office2007Silver">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.Office2007Silver.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.Office2010Black">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.Office2010Black.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.Office2010Blue">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.Office2010Blue.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.Office2010Silver">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.Office2010Silver.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.Office2013Dark">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.Office2013Dark.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.Office2013Light">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.Office2013Light.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.Office2019">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.Office2019.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.TelerikMetro">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.TelerikMetro.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.TelerikMetroBlue">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.TelerikMetroBlue.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.TelerikMetroTouch">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.TelerikMetroTouch.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.VisualStudio2012Dark">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.VisualStudio2012Dark.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.VisualStudio2012Light">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.VisualStudio2012Light.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.VisualStudio2022">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.VisualStudio2022.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.Windows11">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.Windows11.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.Windows7">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.Windows7.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.Themes.Windows8">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.Themes.Windows8.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.WinControls.UI">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.WinControls.UI.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.Windows.Documents.CMapUtils">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.Windows.Documents.CMapUtils.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.Windows.Documents.Core">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.Windows.Documents.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.Windows.Documents.DrawingML">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.Windows.Documents.DrawingML.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.Windows.Documents.Fixed">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.Windows.Documents.Fixed.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.Windows.Documents.Flow">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.Windows.Documents.Flow.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.Windows.Documents.Flow.FormatProviders.Doc">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.Windows.Documents.Flow.FormatProviders.Doc.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.Windows.Documents.Flow.FormatProviders.Pdf">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.Windows.Documents.Spreadsheet">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.Windows.Documents.Spreadsheet.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.Windows.MediaFoundation">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.Windows.MediaFoundation.dll</HintPath>
+      </Reference>
+      <Reference Include="Telerik.Windows.Zip">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\Telerik.Windows.Zip.dll</HintPath>
+      </Reference>
+      <Reference Include="TelerikCommon">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\TelerikCommon.dll</HintPath>
+      </Reference>
+      <Reference Include="TelerikData">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\TelerikData.dll</HintPath>
+      </Reference>
+      <Reference Include="TelerikExport">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R2 2023\Bin70\TelerikExport.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties ShouldAddDPIScalingManifest="" /></VisualStudio></ProjectExtensions>
+     
+
+</Project>
